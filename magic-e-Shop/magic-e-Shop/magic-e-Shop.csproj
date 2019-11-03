@@ -12,5 +12,12 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Pages\" />
+    <Folder Include="Models\Handlers\" />
+    <Folder Include="Models\Interfaces\" />
+    <Folder Include="Models\Services\" />
+    <Folder Include="Models\ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Data\ApplicationDbContext.config" />
   </ItemGroup>
 </Project>
